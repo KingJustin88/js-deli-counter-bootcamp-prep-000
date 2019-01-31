@@ -12,8 +12,10 @@ takeANumber(line) -> 3
 
 function takeANumber(array)
   var num = []
-  for(let i = 1, i += 1  )
-  return ` You are number ${array}`
+  for(let i = 1; i < array.length; i += 1){
+    num.push(`Welcome, ${name}. You are number ${katzDeli.length} in line. `})
+  }
+  return num
   
 
 function nowServing(deliLine) {
