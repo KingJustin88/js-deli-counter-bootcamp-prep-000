@@ -1,5 +1,3 @@
-/*global describe, it */
-
 describe('deli', () => {
   describe('takeANumber', () => {
     var katzDeli;
@@ -24,7 +22,6 @@ describe('deli', () => {
       takeANumber(katzDeli, 'Ada');
       takeANumber(katzDeli, 'Grace');
       takeANumber(katzDeli, 'Kent');
-
       expect(katzDeli).toEqual(["Ada", "Grace", "Kent"]);
     });
   });
